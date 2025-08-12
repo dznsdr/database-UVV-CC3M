@@ -1,3 +1,7 @@
+CREATE DATABASE "UVV-CC3M";
+
+USE "UVV-CC3M";
+
 CREATE TABLE empresa (
     empresa_id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
     nome_fantasia VARCHAR(150) NOT NULL,
